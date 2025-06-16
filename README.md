@@ -25,7 +25,7 @@ An interactive, AI-powered question answering system about **space facts**, buil
 
 ---
 ## Architecture
-![Architecture](Assets\Architecture.png)
+![Architecture](Assets/Architecture.png)
 ---
 ## 🧰 Tech Stack
 
@@ -69,4 +69,3 @@ The sidebar inside the app allows you to:
 The sidebar inside the app allows you to:
 -  Select between GPT-4 or LLaMA3 models
 -  Choose an embedding model: OpenAI / Chroma / Nomic
->>>>>>> a2eebf1dfdf343a3fb2aaf564f41bbc3674a3396
