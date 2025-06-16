@@ -2,7 +2,7 @@
 
 An interactive, AI-powered question answering system about **space facts**, built using **Retrieval-Augmented Generation (RAG)** architecture, **ChromaDB**, and **Streamlit**. This project allows users to choose between different **LLMs** and **embedding models**, and leverages RAG to provide contextually relevant answers in real-time.
 
-![Demo](Assets\demo_video.mp4)
+> 📽️ **[Watch Demo Video](Assets/demo_video.mp4)** *(click to view)*
 
 ---
 
@@ -21,10 +21,12 @@ An interactive, AI-powered question answering system about **space facts**, buil
 
 | Home Interface | AI Response with RAG |
 |----------------|----------------------|
-| ![Home](Assets\Home_Page.png) | ![Typing](Assets\AI_Response.png) |
+| ![Home](Assets/Home_Page.png) | ![Typing](Assets/AI_Response.png) |
 
 ---
-
+## Architecture
+![Architecture](Assets\Architecture.png)
+---
 ## 🧰 Tech Stack
 
 | Tool          | Purpose                                |
@@ -44,14 +46,19 @@ An interactive, AI-powered question answering system about **space facts**, buil
 ```bash
 git clone https://github.com/Basel-Amr/space-facts-rag-app.git
 cd space-facts-rag-app
-
+```
+### 2️⃣ Install Requirements
 ```bash
 pip install -r requirements.txt
+```
 
+### 3️⃣ Run the App
 ```bash
 streamlit run app.py
+```
 
-## ⚙️ Configuration
-The sidebar allows you to:
--   Select between GPT-4 or LLaMA3 models
--   Choose embedding model (OpenAI / Chroma / Nomic)
+### ⚙️ Configuration
+The sidebar inside the app allows you to:
+-  Select between GPT-4 or LLaMA3 models
+-  Choose an embedding model: OpenAI / Chroma / Nomic
+
