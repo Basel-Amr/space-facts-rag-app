@@ -56,9 +56,17 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+<<<<<<< HEAD
 
 ### ⚙️ Configuration
 The sidebar inside the app allows you to:
 -  Select between GPT-4 or LLaMA3 models
 -  Choose an embedding model: OpenAI / Chroma / Nomic
 
+=======
+
+### ⚙️ Configuration
+The sidebar inside the app allows you to:
+-  Select between GPT-4 or LLaMA3 models
+-  Choose an embedding model: OpenAI / Chroma / Nomic
+>>>>>>> a2eebf1dfdf343a3fb2aaf564f41bbc3674a3396
